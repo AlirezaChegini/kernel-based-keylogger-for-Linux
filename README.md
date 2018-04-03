@@ -1,8 +1,8 @@
-#kernel-based keylogger for Linux.
+# kernel-based keylogger for Linux.
 A simplex kernel-based keylogger written for fun, not evil.
 
 
-###Functionality
+### Functionality
 The keylogger can do the following:
 - Hide itself from loadable kernel modules list
 - Protect against being unloaded by the user
@@ -11,17 +11,17 @@ The keylogger can do the following:
 ### Supported Platforms
 The keylogger was tested to work on Linux kernels 4.8.0-52 and 4.10 TLS as provided by Ubuntu in Ubuntu 16.04 LTS and Ubuntu 16.10 respectively, but it should be very easy to port to kernels in-between, as well as newer ones.
 
-###Setting Up Environment
+### Setting Up Environment
 Install a compiler, Linux headers and all other things required for us to build the keylogger:
 ```
 apt-get update
 apt-get install build-essential
 ```
 
-###Build
+### Build
 > make
 
-###Use
+### Use
 To install the keylogger module:
 > sudo insmod AKeylogger.ko
 
